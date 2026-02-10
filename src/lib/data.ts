@@ -46,7 +46,7 @@ export const projects = [
     category: "IoT & Mobile",
     description:
       "Complete IoT ecosystem with Flutter mobile app, Laravel backend dashboard, and ESP32 microcontroller integration. Features real-time monitoring, MQTT communication, and automated control system.",
-    image: "/images/logo_iglasscleane.png",
+    image: "/images/logo_iglasscleane.webp",
     tags: ["Flutter", "Laravel", "IoT", "MQTT", "ESP32", "Three.js"],
     features: [
       "Real-time sensor monitoring (Rain detection)",
@@ -88,7 +88,7 @@ export const projects = [
     category: "Web App",
     description:
       "Comprehensive digital library management system for school with e-book support, borrowing system, and member dashboard.",
-    image: "/images/logo_smpn57.jpeg",
+    image: "/images/logo_smpn57.webp",
     tags: ["CodeIgniter 4", "PHP", "MySQL", "Bootstrap"],
     features: [
       "Physical & e-book management",
@@ -130,7 +130,7 @@ export const projects = [
     category: "Machine Learning",
     description:
       "Advanced sentiment analysis system for Indonesian text using IndoBERT with comparison of 6 fine-tuning methods. Achieved 68.87% accuracy with AdamW optimizer.",
-    image: "/images/logo_machinelearning.png",
+    image: "/images/logo_machinelearning.webp",
     tags: ["Python", "PyTorch", "IndoBERT", "NLP", "Jupyter"],
     features: [
       "Complete preprocessing pipeline",
@@ -151,7 +151,7 @@ export const projects = [
     category: "Web App",
     description:
       "Laravel-based monitoring dashboard and REST API backend for IoT Smart Wiper system with real-time data visualization and device management.",
-    image: "/images/logo_iglasscleane.png",
+    image: "/images/logo_iglasscleane.webp",
     tags: ["Laravel 12", "MySQL", "Chart.js", "REST API"],
     features: [
       "Real-time sensor data monitoring",
