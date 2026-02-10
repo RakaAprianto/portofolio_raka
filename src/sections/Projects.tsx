@@ -63,16 +63,19 @@ export default function Projects() {
           {filteredProjects.map((project, index) => (
             <motion.div
               key={project.id}
-              initial={{ opacity: 0, y: 50 }}
+              initial={{ opacity: 0, y: 30 }}
               animate={isInView ? { opacity: 1, y: 0 } : {}}
-              transition={{ duration: 0.6, delay: 0.3 + index * 0.1 }}
+              transition={{ duration: 0.4, delay: 0.1 + index * 0.05 }}
               className="glass rounded-3xl overflow-hidden group hover-lift hover:glow-blue"
             >
               {/* Project Image */}
               <div className="relative h-64 bg-gradient-to-br from-blue-500/20 to-cyan-500/20 overflow-hidden">
-                <img 
+                <Image 
                   src={project.image} 
                   alt={project.title}
+                  width={400}
+                  height={256}
+                  loading="lazy"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />

@@ -55,9 +55,12 @@ export default function ProjectDetail() {
           >
             <div className="glass-strong rounded-3xl overflow-hidden glow-blue">
               <div className="relative h-64 sm:h-80 lg:h-96 bg-gradient-to-br from-blue-500/20 to-cyan-500/20">
-                <img 
+                <Image 
                   src={project.image}
                   alt={project.title}
+                  width={800}
+                  height={600}
+                  priority
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -174,9 +177,12 @@ export default function ProjectDetail() {
                   className="glass rounded-2xl overflow-hidden hover-lift cursor-pointer group"
                 >
                   <div className="relative h-40 sm:h-48 bg-gradient-to-br from-blue-500/20 to-cyan-500/20">
-                    <img 
+                    <Image 
                       src={relatedProject.image}
                       alt={relatedProject.title}
+                      width={400}
+                      height={192}
+                      loading="lazy"
                       className="w-full h-full object-cover"
                     />
                   </div>
