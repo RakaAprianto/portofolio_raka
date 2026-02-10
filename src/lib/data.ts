@@ -67,7 +67,7 @@ export const projects = [
     category: "Web App",
     description:
       "Modern company profile website for welding workshop with portfolio management system, WhatsApp integration, and admin panel for content management.",
-    image: "/images/logo_kanallas.jpeg",
+    image: "/images/logo_kanallas.webp",
     tags: ["Laravel 12", "PHP 8.2", "MySQL", "Vite", "Tailwind"],
     features: [
       "Portfolio gallery with multiple images",
@@ -109,7 +109,7 @@ export const projects = [
     category: "Web App",
     description:
       "Financial management module for mosque operations focusing on expense tracking, category management, and reporting with PDF export functionality.",
-    image: "/images/logo_masjid.png",
+    image: "/images/logo_masjid.webp",
     tags: ["Laravel 10", "PHP 8.1", "DomPDF", "Chart.js", "Alpine.js"],
     features: [
       "Expense transaction CRUD with receipts",

@@ -45,7 +45,7 @@ export default function About() {
               <div className="glass-strong rounded-3xl p-8 glow-blue">
                 <div className="relative w-full aspect-square rounded-2xl overflow-hidden mb-6 bg-gradient-to-br from-blue-500/20 to-cyan-500/20">
                   <Image 
-                    src="/images/foto.png" 
+                    src="/images/foto.webp" 
                     alt="Raka Aprianto" 
                     width={500}
                     height={500}
@@ -70,7 +70,7 @@ export default function About() {
                 <div className="glass-strong rounded-3xl p-8 glow-blue">
                 <div className="relative w-full aspect-square rounded-2xl overflow-hidden mb-6 bg-gradient-to-br from-blue-500/20 to-cyan-500/20">
                   <Image 
-                    src="/images/foto.png" 
+                    src="/images/foto.webp" 
                     alt="Raka Aprianto" 
                     width={500}
                     height={500}
